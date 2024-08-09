@@ -1,0 +1,120 @@
+.uk-section
+{
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.question-container
+{
+    background-color: rgba(246, 246, 246, 0.699);
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+.next{
+    position: absolute;
+    left: 50%;
+}
+
+.ques{
+    text-align: center;
+}
+
+.options{
+    /* width:80%; */
+    justify-content: space-between;
+}
+.ops{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+fieldset{
+    /* display: flex;
+    flex-direction: column; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    align-items: center;
+}
+.text-label
+{
+    color: #01464b;
+}
+
+/* option */
+
+.options label{
+    display: inline-flex;
+    border-radius: 50%;
+}
+.q1op-1 input[type=radio], .q1op-7 input[type=radio] {
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    accent-color: #b2a422;
+    border: 3px solid #b2a422
+}
+.q1op-2 input[type=radio], .q1op-6  input[type=radio] {
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+    accent-color: #01464b;
+}
+.q1op-3 input[type=radio], .q1op-5 input[type=radio] {
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    accent-color: #96a765;
+}
+.q1op-4 input[type=radio] {
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+    accent-color: #f8a000;
+}
+
+input[type=radio]{
+    cursor: pointer;
+    /* display: block;
+    position: absolute; */
+    /* width: 30px;
+    height: 30px;
+    opacity: ; */
+}
+/* option end */
+.button {
+    width: fit-content;
+    display: flex;
+    padding: 15px 40px;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-size: 20px;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition: background .3s ease;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
