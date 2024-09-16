@@ -3,14 +3,13 @@ import { getAuth,createUserWithEmailAndPassword, signInWithEmailAndPassword,send
 import { getFirestore, doc, setDoc,collection} from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqRM8xlbtFyPzsXevP4HEzne30oASRTew",
-  authDomain: "persnality-ad04f.firebaseapp.com",
-  projectId: "persnality-ad04f",
-  storageBucket: "persnality-ad04f.appspot.com",
-  messagingSenderId: "635327881645",
-  appId: "1:635327881645:web:c403bdce04ca558614c124",
-  measurementId: "G-YPF19H8335"
-  };
+  apiKey: "AIzaSyAoC-FUJk-jDAvVuQ4DOlOrLBzZJgFurJI",
+  authDomain: "personality-checker-b4a21.firebaseapp.com",
+  projectId: "personality-checker-b4a21",
+  storageBucket: "personality-checker-b4a21.appspot.com",
+  messagingSenderId: "145465583705",
+  appId: "1:145465583705:web:f998a83aa920a086e72948"
+};
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
   const db =getFirestore(app)
@@ -105,7 +104,7 @@ document.getElementById('loginbtn').addEventListener('click',async(e)=>{
         localStorage.setItem("myObject", JSON.stringify(obj));
       console.log("stored",obj.id);
       });
-      if(admin =="FjQipT2UzuUZPV7Ll5jAxcVccfe2")
+      if(admin =="k4d9vPn1IoRjo6LzD0CRoxSRuPv1")
       {
         window.open("./admin.html", "_blank");
       }
