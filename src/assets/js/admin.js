@@ -2,14 +2,13 @@
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAOWJ0x8p0BQ5P24yiHJJGPu6FEckgHRaI",
-    authDomain: "personality16-c7a11.firebaseapp.com",
-    projectId: "personality16-c7a11",
-    storageBucket: "personality16-c7a11.appspot.com",
-    messagingSenderId: "25223366012",
-    appId: "1:25223366012:web:0cd5f6ef0490ea2b61d0f9",
-    measurementId: "G-QESLT974TN"
-  };
+  apiKey: "AIzaSyAoC-FUJk-jDAvVuQ4DOlOrLBzZJgFurJI",
+  authDomain: "personality-checker-b4a21.firebaseapp.com",
+  projectId: "personality-checker-b4a21",
+  storageBucket: "personality-checker-b4a21.appspot.com",
+  messagingSenderId: "145465583705",
+  appId: "1:145465583705:web:f998a83aa920a086e72948"
+};
 
 firebase.initializeApp(firebaseConfig);
 
